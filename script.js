@@ -1,4 +1,4 @@
-const timer = document.getElementById('stopwatch');
+const timer = document.getElementById('timer');
 
 var hr = 0;
 var min = 0;
