@@ -33,13 +33,13 @@ function timerCycle() {
       min = 0;
       sec = 0;
     }
-    if (sec < 10 || sec == 0) {
+    if (sec < 10) {
       sec = '0' + sec;
     }
-    if (min < 10 || min == 0) {
+    if (min < 10) {
       min = '0' + min;
     }
-    if (hr < 10 || hr == 0) {
+    if (hr < 10) {
       hr = '0' + hr;
     }
     timer.innerHTML = hr + ' : ' + min + ' : ' + sec;
